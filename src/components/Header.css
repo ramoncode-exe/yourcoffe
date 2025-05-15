@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #301c00;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-links li{
+    list-style-type: none;
+    padding: 0.3rem;
+}
+
+.nav-links li:hover{
+    border: 1px solid #6f6f6f;
+    padding: 0.3rem;
+    border-radius: 10px 20px 10px 15px;
+}
+
+#logo{
+    width: 180px;
+    height: 100px;
+}
+
+.btnContact{
+    border: none;
+    border-radius: 10px 20px 10px 15px;
+    background-color: #C98A59;
+    color: #FFF;
+}
+
+#menu{
+    width: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    #menu{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: #301c00;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        width: 100px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        border: 1px solid #6f6f6f;
+    }
+
+    .btnContact{
+        height: 30px;
+    }
+
+    .nav-links li:hover{
+        border: 1px solid #6f6f6f;
+        padding: 0.3rem;
+        border-radius: 10px 20px 10px 15px;
+    }
+
+    .nav-links.active{
+        display: flex;
+    }
+}
