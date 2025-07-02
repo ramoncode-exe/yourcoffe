@@ -39,7 +39,3 @@ This project was entirely designed and developed by me, **Ramon**, with special 
 **Ramon**
 Front-end Developer & UX/UI Designer
 Passionate about creating meaningful digital experiences — especially for brands with a story to tell.
-
----
-
-Se quiser, posso te mandar a versão em **Markdown pronta para colar** no repositório. Também posso adaptar esse mesmo modelo para o terceiro projeto. Quer seguir?
